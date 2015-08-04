@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left|center" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewKamoku"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="科目" />
+
+        <TextView
+            android:id="@+id/textViewBasyo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="場所" />
+
+        <TextView
+            android:id="@+id/textViewTeacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="先生" />
+
+    </LinearLayout>
+
+</LinearLayout>
